@@ -13,6 +13,8 @@ public class PaintApp {
 		Point point2 = new Point(100, 200);
 		drawPoint(point1);
 		drawPoint(point2);
+		
+		point2.show(false);
 	}
 	public static void drawPoint(Point pt) {
 		pt.show();

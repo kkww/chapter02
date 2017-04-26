@@ -25,4 +25,10 @@ public class Point {
 	public void show() {
 		System.out.println("[x=" + x + ",y=" + y + "]에 점을 그렸습니다.");
 	}
+	public void show(boolean visible) {
+		if(visible)
+			show();
+		else
+			System.out.println("[x=" + x + ",y=" + y + "]에 점 사라짐");
+	}
 }
