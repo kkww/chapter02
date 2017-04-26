@@ -14,6 +14,7 @@ public class PaintApp {
 		drawPoint(point1);
 		drawPoint(point2);
 		
+		point2.show(true);
 		point2.show(false);
 	}
 	public static void drawPoint(Point pt) {
