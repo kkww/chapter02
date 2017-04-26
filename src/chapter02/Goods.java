@@ -5,6 +5,7 @@ public class Goods {
 	
 	public Goods() {
 		countOfGoods++;
+		//
 	}
 	
 	//인스턴스 변수는 자동으로 초기화된다.
