@@ -8,6 +8,19 @@ public class Song {
 	private int track;
 	private String composer;
 	
+	public Song(String artist, String title, String album,
+				int year, int track, String composer) {
+		this.artist = artist;
+		this.title = title;
+		this.album = album;
+		this.year = year;
+		this.track = track;
+		this.composer = composer;
+	}
+	public Song(String artist, String title) {
+		this(artist, title, "", 0, 0, ""); //기존 생성자 호출
+	}
+	
 	public String getTitle() {
 		return title;
 	}
@@ -49,6 +62,6 @@ public class Song {
 				album + "," +
 				year + "," +
 				track + "번 track," +
-				composer + " 작곡");
+				composer + " 작곡)");
 	}
 }
