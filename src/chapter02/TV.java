@@ -5,16 +5,6 @@ public class TV {
 	private int volume;
 	private boolean power;
 	
-<<<<<<< HEAD
-	public int getChannel() {
-		return channel;
-	}
-	public int getVolume() {
-		return volume;
-	}
-	public boolean isPower() {
-		return power;
-=======
 	TV() {
 		System.out.println("TV default constructor");
 	}
@@ -81,6 +71,5 @@ public class TV {
 		System.out.println("channel : " + channel
 				+ ", volume : " + volume
 				+ ", power : " + power);
->>>>>>> branch 'master' of https://github.com/kkww/chapter02.git
 	}
 }

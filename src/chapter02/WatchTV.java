@@ -3,12 +3,6 @@ package chapter02;
 public class WatchTV {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-		// TODO Auto-generated method stub
-
-	}
-
-=======
 		TV tv = new TV( 7, 20, false);  	
 		
 		tv.status();	
@@ -32,5 +26,4 @@ public class WatchTV {
 		tv.status();
 
 	}
->>>>>>> branch 'master' of https://github.com/kkww/chapter02.git
 }
