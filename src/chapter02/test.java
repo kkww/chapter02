@@ -1,5 +1,8 @@
 package chapter02;
 
+import java.util.Date;
+import java.util.Scanner;
+
 class Myclass {
 	String str;
 	public Myclass(String s) {
@@ -9,6 +12,10 @@ class Myclass {
 
 public class test {
 	public static void main(String[] args) {
+		Date d = new Date();
+		System.out.println(d);
+		Scanner s = new Scanner(System.in);
+		
 		Myclass t = new Myclass("TEST");
 		System.out.println(t);
 		
